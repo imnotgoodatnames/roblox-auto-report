@@ -54,6 +54,11 @@ words = {
     ['nigga'] = 'Swearing',
     ['idiot'] = 'Bullying',
     ['hate'] = 'Bullying',
+    ['dislike'] = 'Bullying',
+    ['cut'] = 'Bullying',
+    ['#'] = 'Swearing',
+    ['big'] = 'Bullying',
+    ['toxic'] = 'Bullying',
 }
 
 if not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents') or not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents'):FindFirstChild('OnMessageDoneFiltering') then return end
@@ -124,7 +129,7 @@ function handler(msg,speaker)
                     },
                  },
                  ["footer"] = {
-                     ["text"] = "\nIf you think this is a mistake: stfu"
+                     ["text"] = "\nI trolled them L"
                  },
                  ["author"] = {
                      ["name"] = "Auto Report"
