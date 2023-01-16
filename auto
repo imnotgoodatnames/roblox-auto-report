@@ -57,6 +57,7 @@ words = {
     ['asshole'] = 'Swearing',
     ['nigger'] = 'Swearing',
     ['nigga'] = 'Swearing',
+    ['idiot'] = 'Bullying',
 }
 
 if not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents') or not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents'):FindFirstChild('OnMessageDoneFiltering') then return end
