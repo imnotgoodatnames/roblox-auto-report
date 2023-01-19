@@ -99,6 +99,7 @@ words = {
     ['big'] = 'Bullying',
     ['toxic'] = 'Bullying',
     ['monkey'] = 'Bullying',
+    ['negar'] = 'Bullying',
 }
 
 if not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents') or not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents'):FindFirstChild('OnMessageDoneFiltering') then return end
