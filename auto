@@ -106,7 +106,7 @@ DCSCE = game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemCh
 if not autoreportcfg then
 getgenv().autoreportcfg = {
     Webhook = 'https://discordapp.com/api/webhooks/1064390184231239712/s8egqoh8zFAYdI45_SjLSvGOannLOWAE2krOx9IDRLypY_zwdG7YYX5empG1Z84yWl7-', 
-
+     enabled = true,
 }
 end
 
